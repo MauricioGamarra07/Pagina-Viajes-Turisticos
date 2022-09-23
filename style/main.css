@@ -1,0 +1,123 @@
+#carro{
+    width: 300px;
+}
+.mision-vision{
+    margin-top: 60px;
+}
+.section-iconos{
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(9, 91, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    padding: 25px;
+    font-size: 24px;
+    background: rgb(7, 7, 129);
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.section-footer{
+    background-color: rgb(9, 91, 158);
+    color: white;
+}
+#img-promociones{
+    height: 180px;
+}
+.secciones{
+    padding-top: 140px;
+}
+.texto-promociones{
+    box-shadow: 0px 0px 7px 3px gray;
+}
+.boton-otros{
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+form{
+    margin-top: 3%;
+    height: 580px;
+}
+form input, form textarea{
+    width: 88%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#btn-enviar{
+    background-color: dodgerblue;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
+form span{
+    background-color: lightgray;
+    color: black;
+    padding: 13px;
+    height: 49px;
+    font-size: 20px;
+    border: 1px solid gray;
+    float: left;
+    margin: 0;
+}
+.mensaje{
+    display: flex;
+}
+#mensaje{
+    height: 200px;
+}
+#area{
+    min-height: 200px;
+    max-height: 300px;
+}
+.img-miraflores{
+    position: relative;
+    background-image: url(../img/miraflores.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+}
+.img-miraflores:hover{
+    transition: background 1s;
+}
+.img-jiron{
+    position: relative;
+    background: url(../img/jiron.jpg);
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.img-jiron:hover{
+    transition: background 1s;
+}
+.img-costa-verde{
+    position: relative;
+    background: url(../img/costa_verde.jpg);
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.img-costa-verde:hover{
+    transition: background 1s;
+}
+.img-ica-sur{
+    position: relative;
+    background: url(../img/ica_sur.jpg);
+    background-size: 100% 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.img-ica-sur:hover{
+    transition: background 1s;
+}

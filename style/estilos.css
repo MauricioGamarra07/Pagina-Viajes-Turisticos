@@ -1,0 +1,64 @@
+.img-miraflores:hover{
+    background-size: 150% 150%;
+}
+.img-jiron:hover{
+    background-size: 150% 150%;
+}
+.img-costa-verde:hover{
+    background-size: 150% 150%;
+}
+.img-ica-sur:hover{
+    background-size: 150% 150%;
+}
+.contenido-traslados{
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    padding: 0 10px;
+}
+#carro{
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#ica{
+    margin-top: 40px;
+    height: 250px;
+}
+.reserve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reserve a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    transform: translateY(-8px);
+    margin-left: 10px;
+}
+.reserve a:hover{
+    color: blue;
+}
+.content{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.accordion .contentBx.active .traslados{
+    height: 280px;
+    padding: 10px;
+}
+.accordion .contentBx.active .tours{
+    height: 200px;
+    padding: 10px;
+}
+.accordion .contentBx.active .adicionales{
+    height: 160px;
+    padding: 10px;
+}
+.accordion .contentBx.active .full-day{
+    height: 250px;
+    padding: 10px;
+}
